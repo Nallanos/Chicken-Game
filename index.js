@@ -41,7 +41,7 @@ for (let i = 0; i < children.length; i++) {
     const child = children[i];
     child.addEventListener('click', function(e) {
         if(e.currentTarget.dataset.etat == 'Bone'){
-            e.currentTarget.children[0].src = '/img/94937508-illustration-d-os-de-chien-une-illustration-de-dessin-animé-de-vecteur-d-un-os-de-chien.webp'
+            e.currentTarget.children[0].src = '94937508-illustration-d-os-de-chien-une-illustration-de-dessin-animé-de-vecteur-d-un-os-de-chien.webp'
             parentElement.remove()
             form.remove()
             const h1 = document.createElement('h1')
@@ -50,7 +50,7 @@ for (let i = 0; i < children.length; i++) {
             body.appendChild(h1)
         }
         else {
-            e.currentTarget.children[0].src = '/img/Cloche-ouverte-poulet.png'
+            e.currentTarget.children[0].src = 'Cloche-ouverte-poulet.png'
         }
       });
   }}
